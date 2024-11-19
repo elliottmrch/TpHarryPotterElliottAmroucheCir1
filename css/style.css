@@ -87,3 +87,22 @@ main{
     align-items: center;
 }
 
+.right {
+    position: relative;
+    width: 728px; /* Adapter à la taille de ton losange */
+    height: 752px;
+}
+
+.imageLosange {
+    width: 100%;
+    height: auto;
+}
+
+.imageChoixpeau {
+    position: absolute;
+    width: 280px; /* Adapter à la taille du choixpeau */
+    height: 280px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
