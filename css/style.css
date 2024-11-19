@@ -89,7 +89,7 @@ main{
 
 .right {
     position: relative;
-    width: 728px; /* Adapter à la taille de ton losange */
+    width: 728px;
     height: 752px;
 }
 
@@ -100,9 +100,30 @@ main{
 
 .imageChoixpeau {
     position: absolute;
-    width: 280px; /* Adapter à la taille du choixpeau */
+    width: 280px;
     height: 280px;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.texteBottomChoixpeau{
+    position: absolute;
+    text-align: center;
+    width: 350px;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.texteRightChoixpeau{
+    font-family: "Bigelow Rules", serif;
+    font-size: 63px;
+    position: absolute;
+    width: 293px;
+    height: 257px;
+    text-align: center;
+    top: 45%;
+    left: 100%;
     transform: translate(-50%, -50%);
 }
