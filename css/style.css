@@ -1,161 +1,177 @@
-@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap");
 
-body{
-    font-family: "Sofia Sans", sans-serif;
-    font-size: 20px;
-    color: white;
-    padding: 0;
-    margin: 0;
-    background-image: url(./../images/Ressources/background.webp);
-    background-size : cover;
+body {
+  font-family: "Sofia Sans", sans-serif;
+  font-size: 20px;
+  color: white;
+  padding: 0;
+  margin: 0;
+  background-image: url(./../images/Ressources/background.webp);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
-header{
-    background-color: rgba(36, 38, 51, 1);
+header {
+  background-color: rgba(36, 38, 51, 1);
 }
 
-.logoMain{
-    display: block;
-    width: 215.31px;
-    height: 80px;
-    margin: auto;
-    padding: 10px;
+.logoMain {
+  display: block;
+  width: 215.31px;
+  height: 80px;
+  margin: auto;
+  padding: 10px;
 }
 
-nav ul{
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-    background-color: rgba(16, 20, 27, 1);
-    margin: 0;
-    padding: 10px;
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  background-color: rgba(16, 20, 27, 1);
+  margin: 0;
+  padding: 10px;
+
+  li:hover {
+    color: rgba(139, 129, 236, 1);
+  }
 }
 
-nav ul li{
-    text-transform: uppercase;
-    font-family: "Bigelow Rules", serif;
-    font-size: 40px;
-    color: white;
+nav ul li {
+  text-transform: uppercase;
+  font-family: "Bigelow Rules", serif;
+  font-size: 40px;
+  color: white;
 }
 
-main{
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%);
+main {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgb(255, 255, 255) 100%
+  );
 }
 
-.mainContainer{
-    width: 1440px;
-    height: 1032px;
-    margin: auto;
-    display: flex;
-    justify-content:space-between;
+.mainContainer {
+  width: 1440px;
+  height: 1032px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
 }
 
-.left{
-    width: 563px;
-    height: 752px;
-    background: linear-gradient(180deg, #433C87 0%, rgba(67, 60, 135, 0) 100%);
+.left {
+  width: 563px;
+  height: 752px;
+  background: linear-gradient(180deg, #433c87 0%, rgba(67, 60, 135, 0) 100%);
 }
 
-.logoClub{
-    display: block;
-    width: 375px;
-    height: 171px;
-    margin: auto;
-    padding-top: 61px;
+.logoClub {
+  display: block;
+  width: 375px;
+  height: 171px;
+  margin: auto;
+  padding-top: 61px;
 }
 
-.texteLeft{
-    padding-top: 86px;
-    margin: auto;
-    width: 350px;
-    height: 185px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.texteLeft {
+  padding-top: 86px;
+  margin: auto;
+  width: 350px;
+  height: 185px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-    p{
-        text-align: center;
-    }
+  p {
+    text-align: center;
+  }
 }
 
-.boutonRejoindre{
-    background-color: rgba(67, 60, 135, 1);
-    border-radius: 30px;
-    width: 350px;
-    height: 74px;
-    text-transform: uppercase;
-    font-size: 24px;
-    font-weight: bold;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.boutonRejoindre {
+  background-color: rgba(67, 60, 135, 1);
+  border-radius: 30px;
+  width: 350px;
+  height: 74px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s;
+}
+
+.boutonRejoindre:hover {
+  transform: scale(1.15);
 }
 
 .right {
-    position: relative;
-    width: 728px;
-    height: 752px;
+  position: relative;
+  width: 728px;
+  height: 752px;
 }
 
 .imageLosange {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .imageChoixpeau {
-    position: absolute;
-    width: 280px;
-    height: 280px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.texteBottomChoixpeau{
-    position: absolute;
-    text-align: center;
-    width: 350px;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.texteBottomChoixpeau {
+  position: absolute;
+  text-align: center;
+  width: 350px;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.texteRightChoixpeau{
-    font-family: "Bigelow Rules", serif;
-    font-size: 63px;
-    position: absolute;
-    width: 293px;
-    height: 257px;
-    text-align: center;
-    top: 45%;
-    left: 100%;
-    transform: translate(-50%, -50%);
+.texteRightChoixpeau {
+  font-family: "Bigelow Rules", serif;
+  font-size: 63px;
+  position: absolute;
+  width: 293px;
+  height: 257px;
+  text-align: center;
+  top: 43%;
+  left: 100%;
+  transform: translate(-50%, -50%);
 }
 
-footer{
-    height: 229px;
-    background-color: rgba(16, 20, 27, 1);
-    display: flex;
+footer {
+  height: 229px;
+  background-color: rgba(16, 20, 27, 1);
+  display: flex;
 }
 
-.cadreReseaux{
-    margin: auto;
-    width: 1440px;
-    height: 100px;
-    border: 1px solid white;
-    display: flex;
-    flex-direction: column;
+.cadreReseaux {
+  margin: auto;
+  width: 1440px;
+  height: 100px;
+  border: 1px solid white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
-.logoReseaux{
-    font-size: 20px;
-    display: flex;
-    justify-content: space-around;
+.logoReseaux {
+  font-size: 22px;
+  display: flex;
+  justify-content: space-around;
 
-    i:hover{
-        color: rgba(139, 129, 236, 1);
-    }
+  i:hover {
+    color: rgba(139, 129, 236, 1);
+  }
 }
