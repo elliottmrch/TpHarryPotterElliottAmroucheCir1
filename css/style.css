@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+body{
+    font-family: "Sofia Sans", sans-serif;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: rgba(36, 38, 51, 1);
+}
+
+.logoMain{
+    display: block;
+    width: 215.31px;
+    height: 80px;
+    margin: auto;
+    padding: 10px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background-color: rgba(16, 20, 27, 1);
+    margin: 0;
+    padding: 10px;
+}
+
+nav ul li{
+    text-transform: uppercase;
+    font-family: "Bigelow Rules", serif;
+    font-size: 40px;
+    color: white;
+}
